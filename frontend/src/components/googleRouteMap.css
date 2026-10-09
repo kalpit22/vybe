@@ -1,0 +1,128 @@
+.google-map-card {
+  margin: 0 0 26px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e5eae2;
+  border-radius: 18px;
+}
+
+.google-map-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 19px;
+}
+
+.google-map-heading h2 {
+  margin: 4px 0 0;
+  color: #25352a;
+  font: 750 17px Manrope;
+  letter-spacing: -.5px;
+}
+
+.google-map-kicker {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #4c7958;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.google-route-summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 10px;
+  color: #246d52;
+  background: #edf5ed;
+  border-radius: 30px;
+  font-size: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.google-map-frame {
+  position: relative;
+  height: 310px;
+  background-color: #edf1eb;
+  background-image: linear-gradient(30deg, transparent 48%, #dce5da 49%, #dce5da 50%, transparent 51%), linear-gradient(150deg, transparent 48%, #e2e9df 49%, #e2e9df 50%, transparent 51%);
+  background-size: 76px 76px;
+}
+
+.google-map-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.google-map-message {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  width: min(390px, calc(100% - 32px));
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, .96);
+  border: 1px solid #e2e8df;
+  border-radius: 15px;
+  box-shadow: 0 12px 35px #1a34201a;
+  transform: translate(-50%, -50%);
+}
+
+.google-map-message-icon {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  color: #246d52;
+  background: #e9f2e8;
+  border-radius: 12px;
+  place-items: center;
+}
+
+.google-map-message > b {
+  color: #344438;
+  font-size: 13px;
+}
+
+.google-map-message > span {
+  color: #78847b;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.google-map-status {
+  position: absolute;
+  z-index: 1;
+  bottom: 12px;
+  left: 12px;
+  padding: 7px 10px;
+  color: #526456;
+  background: rgba(255, 255, 255, .96);
+  border: 1px solid #e2e8df;
+  border-radius: 9px;
+  box-shadow: 0 2px 8px #1a342012;
+  font-size: 9px;
+}
+
+.google-map-footnote {
+  padding: 9px 14px;
+  color: #78847b;
+  border-top: 1px solid #edf0eb;
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .google-map-heading { padding: 14px; }
+  .google-map-frame { height: 260px; }
+  .google-route-summary { padding: 6px 8px; font-size: 9px; }
+  .google-map-footnote { padding: 9px 12px; }
+}
