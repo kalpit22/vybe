@@ -6,13 +6,17 @@
 
 <p align="center">A rider and driver carpool app built with React, TypeScript, and Supabase.</p>
 
-**GitHub repository:** [kalpit22/vybe](https://github.com/kalpit22/vybe) · **Prototype:** [Open the Vybe MagicPath prototype](https://designs.magicpath.ai/v1/daring-air-2821)
+**GitHub repository:** [kalpit22/vybe](https://github.com/kalpit22/vybe) · **Prototype:** [Open the Vybe MagicPath prototype](https://designs.magicpath.ai/v1/daring-air-2821) · **Product concept:** [Under 2 hours before](docs/under-2-hours-before.pdf)
 
 ## Project overview
 
 Vybe helps people share planned rides. Riders can search routes and request seats; drivers can publish rides, choose fares, and manage requests. The app includes Supabase authentication and data, Google Maps route estimates, driver ratings, trusted contacts, SOS shortcuts, Razorpay checkout, and RazorpayX driver payout workflows.
 
 The web app supports a demo mode so it can run before credentials are configured. Real accounts, saved bookings, maps, payments, and payouts require the corresponding provider setup described below.
+
+## Product concept deck
+
+The [six-page concept deck](docs/under-2-hours-before.pdf) describes Vybe's proposed product direction, including safety, fare policies, verified communities, and the business model. It is a concept document; not every proposal is implemented in the current app. In particular, the current SOS flow opens a message draft or phone dialer and requires the user to take action. It does not automatically call emergency services or send live-location alerts.
 
 ## Features
 
@@ -50,6 +54,8 @@ vybe/
 │   └── supabase/
 │       ├── functions/       # Payment, webhook, and payout Edge Functions
 │       └── migrations/      # PostgreSQL schema and Row Level Security
+├── docs/
+│   └── under-2-hours-before.pdf  # Product concept deck
 ├── frontend/
 │   ├── android/             # Android Studio wrapper
 │   ├── public/              # Logo and static assets
