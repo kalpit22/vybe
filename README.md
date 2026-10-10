@@ -7,7 +7,27 @@
 <p align="center">A rider and driver carpool app built with React, TypeScript, and Supabase.</p>
 
 **GitHub repository:** [kalpit22/vybe](https://github.com/kalpit22/vybe) · **Prototype:** [Open the Vybe MagicPath prototype](https://designs.magicpath.ai/v1/daring-air-2821) · **Product concept:** [Under 2 hours before](docs/under-2-hours-before.pdf)
+ 
+ 
+ 
+ 
+ problem statement:-
+Carpooling that people will actually use
+   Submitted by Akshita. Most commuters drive alone, and carpooling stays rare because matching routes is awkward, splitting costs fairly is awkward, and riding with a stranger requires trust nobody has built. Build a platform that matches people by how much of their route and timing genuinely overlap, handles recurring trips, splits the cost by distance automatically, and takes safety seriously — verification, ratings, live tracking, women-only options.
 
+
+
+
+TEAM: 2392608069-404 glitch found
+2392608069 Aditya Ranjan
+2392608047 Akash Nand sinha
+2392608061 Rohit Tanaji Durgale 
+2392608120 kalpit manoj kshirsagar
+2392608032 mohammed asrar afzal sayed
+2392608016 Jeevan mahadev durgale
+
+
+   
 ## Project overview
 
 Vybe helps people share planned rides. Riders can search routes and request seats; drivers can publish rides, choose fares, and manage requests. The app includes Supabase authentication and data, Google Maps route estimates, driver ratings, trusted contacts, SOS shortcuts, Razorpay checkout, and RazorpayX driver payout workflows.
